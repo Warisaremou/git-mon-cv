@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+/** SECTION 1 **/
+.section-1{
+    background: #356381cb;
+    color: #fff;
+    padding: 40px 20px;
+}
+.profil{
+    width: 150px;
+    height: auto;
+    margin: 0 0 15px;
+    border-radius: 50%;
+    transform: translateX(50px);
+}
+.associations ul li a{
+    color: #fff;
+    font-size: 15px;
+}
+.associations ul li a i{
+    margin-right: 10px;
+    color: #23475E;
+}
+.associations ul li a:hover{
+    color: #23475E;
+    transition: .2s all ease;
+}
+.competences{
+    margin: 10px 0;
+}
+.competences h3{
+    position: relative;
+    display: inline-block;
+}
+.competences h3::after{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 50px;
+    height: 3px;
+    background: #fff;
+}
+.skill .progress{
+    height: 7px; 
+    width: 100%; 
+    background: #ddd;
+}
+.skill .progress-bar{
+    background: #23475E; 
+    height: 7px;
+    transition: all .5s ease;
+}
+.skill p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+
+/** SECTION 2 **/
+.section-2{
+    max-width: 400px;
+    font-size: 15px;
+    background-color: #fff;
+    margin: 30px auto;
+    text-align: justify;
+}
+.section-2 h2, .section-2 h3{
+    color: #23475E;
+    position: relative;
+    display: inline-block;
+}
+.section-2 h3::after{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 50px;
+    height: 3px;
+    background: #23475E;
+}
+
+.description p{
+    font-weight: 600;
+}
+.experiences{
+    margin: 10px 0;
+}
